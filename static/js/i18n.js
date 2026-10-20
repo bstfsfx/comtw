@@ -28,6 +28,7 @@ const translations = {
         "tech-firebase": "Firebase",
         "tech-javascript": "JavaScript",
         "tech-localstorage": "LocalStorage",
+        "tech-responsive": "Responsive",
 
         // Project descriptions - reframed as company case studies
         "project-luojai-title": "Heritage Dessert Brand Website",
@@ -142,6 +143,7 @@ const translations = {
         "tech-firebase": "Firebase",
         "tech-javascript": "JavaScript",
         "tech-localstorage": "LocalStorage",
+        "tech-responsive": "響應式設計",
 
         // Project descriptions
         "project-luojai-title": "傳統甜品品牌網站",
@@ -256,6 +258,7 @@ const translations = {
         "tech-firebase": "Firebase",
         "tech-javascript": "JavaScript",
         "tech-localstorage": "LocalStorage",
+        "tech-responsive": "レスポンシブ",
 
         // Project descriptions
         "project-luojai-title": "伝統的デザートブランドサイト",
