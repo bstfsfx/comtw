@@ -30,6 +30,8 @@ const translations = {
         "tech-localstorage": "LocalStorage",
 
         // Project descriptions - reframed as company case studies
+        "project-luojai-title": "Heritage Dessert Brand Website",
+        "project-luojai-desc": "Showcase website for a traditional brown sugar shaved ice dessert brand featuring an automated brand story presentation, signature dessert gallery, store information, latest news updates, and one-click navigation-to-store workflows for F&B brand operations.",
         "project-stock-title": "Financial Trading Automation",
         "project-stock-desc": "Real-time stock market analysis platform featuring interactive candlestick charts, technical indicators, strategy backtesting, and AI-powered price prediction for automated trading workflows.",
         "project-mall-title": "Retail Workflow Automation",
@@ -142,6 +144,8 @@ const translations = {
         "tech-localstorage": "LocalStorage",
 
         // Project descriptions
+        "project-luojai-title": "傳統甜品品牌網站",
+        "project-luojai-desc": "為傳統黑砂糖剉冰甜品品牌打造的展示網站，具備自動化品牌故事介紹、招牌甜品展示、店鋪資訊、最新消息更新，以及一鍵導航到店的流程，優化餐飲品牌的線上呈現與顧客引導作業。",
         "project-stock-title": "金融交易自動化",
         "project-stock-desc": "即時股票市場分析平台，具備互動式K線圖、技術指標、策略回測與 AI 驅動的價格預測功能，實現自動化交易流程。",
         "project-mall-title": "零售流程自動化",
@@ -254,6 +258,8 @@ const translations = {
         "tech-localstorage": "LocalStorage",
 
         // Project descriptions
+        "project-luojai-title": "伝統的デザートブランドサイト",
+        "project-luojai-desc": "伝統的な黒砂糖かき氷デザートブランド向けのショーケースウェブサイト。自動化されたブランドストーリー紹介、看板デザートギャラリー、店舗情報、最新ニュース更新、ワンクリックで店舗案内するワークフローを備え、F&Bブランドのオンラインプレゼンスと顧客誘導業務を最適化します。",
         "project-stock-title": "金融取引自動化",
         "project-stock-desc": "インタラクティブなローソク足チャート、技術指標、戦略バックテスト、AI駆動の価格予測を備えたリアルタイム株式市場分析プラットフォーム。自動化取引ワークフローを実現します。",
         "project-mall-title": "小売ワークフロー自動化",
