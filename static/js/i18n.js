@@ -29,8 +29,12 @@ const translations = {
         "tech-javascript": "JavaScript",
         "tech-localstorage": "LocalStorage",
         "tech-responsive": "Responsive",
+        "tech-multilingual": "Multi-language",
+        "tech-reservation": "Reservation",
 
         // Project descriptions - reframed as company case studies
+        "project-arashiyama-title": "Tea House & Brand Experience Site",
+        "project-arashiyama-desc": "Multi-language brand website for a bamboo-path tea house featuring an automated brand story presentation, tea selection catalogue, tea ceremony experience section, store information, and a streamlined tea seat reservation workflow for F&B brand operations.",
         "project-luojai-title": "Heritage Dessert Brand Website",
         "project-luojai-desc": "Showcase website for a traditional brown sugar shaved ice dessert brand featuring an automated brand story presentation, signature dessert gallery, store information, latest news updates, and one-click navigation-to-store workflows for F&B brand operations.",
         "project-stock-title": "Financial Trading Automation",
@@ -144,8 +148,12 @@ const translations = {
         "tech-javascript": "JavaScript",
         "tech-localstorage": "LocalStorage",
         "tech-responsive": "響應式設計",
+        "tech-multilingual": "多語系",
+        "tech-reservation": "預約系統",
 
         // Project descriptions
+        "project-arashiyama-title": "茶館與品牌體驗網站",
+        "project-arashiyama-desc": "為竹徑茶館打造的雙語品牌網站，具備自動化品牌故事介紹、茶品介紹目錄、茶席體驗專區、店鋪資訊，以及流暢的茶席預約流程，優化餐飲品牌的線上呈現與顧客預約作業。",
         "project-luojai-title": "傳統甜品品牌網站",
         "project-luojai-desc": "為傳統黑砂糖剉冰甜品品牌打造的展示網站，具備自動化品牌故事介紹、招牌甜品展示、店鋪資訊、最新消息更新，以及一鍵導航到店的流程，優化餐飲品牌的線上呈現與顧客引導作業。",
         "project-stock-title": "金融交易自動化",
@@ -259,8 +267,12 @@ const translations = {
         "tech-javascript": "JavaScript",
         "tech-localstorage": "LocalStorage",
         "tech-responsive": "レスポンシブ",
+        "tech-multilingual": "多言語対応",
+        "tech-reservation": "予約システム",
 
         // Project descriptions
+        "project-arashiyama-title": "茶ハウス・ブランド体験サイト",
+        "project-arashiyama-desc": "竹林の茶ハウス向けの多言語ブランドサイト。自動化されたブランドストーリー紹介、茶葉紹介カタログ、茶席体験セクション、店舗情報、円滑な茶席予約ワークフローを備え、F&Bブランドのオンラインプレゼンスと予約業務を最適化します。",
         "project-luojai-title": "伝統的デザートブランドサイト",
         "project-luojai-desc": "伝統的な黒砂糖かき氷デザートブランド向けのショーケースウェブサイト。自動化されたブランドストーリー紹介、看板デザートギャラリー、店舗情報、最新ニュース更新、ワンクリックで店舗案内するワークフローを備え、F&Bブランドのオンラインプレゼンスと顧客誘導業務を最適化します。",
         "project-stock-title": "金融取引自動化",
