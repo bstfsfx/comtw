@@ -29,14 +29,14 @@
 <body>
     <div class="container" id="top">
         <header class="site-nav">
-            <a class="nav-brand" href="#top" aria-label="AI Workflow Automation - home">
+            <a class="nav-brand" href="#top" aria-label="AI Workflow Automation - home" data-i18n-aria-label="nav-home-label">
                 <picture class="nav-logo-wrap">
                     <source srcset="static/images/logo.webp" type="image/webp">
-                    <img class="nav-logo" src="static/images/logo.png" alt="AI Workflow Automation logo" width="40" height="40">
+                    <img class="nav-logo" src="static/images/logo.png" alt="AI Workflow Automation logo" width="40" height="40" data-i18n-alt="logo-alt">
                 </picture>
-                <span class="nav-brand-name">AI Workflow Automation</span>
+                <span class="nav-brand-name" data-i18n="brand-name">AI Workflow Automation</span>
             </a>
-            <nav class="nav-links" aria-label="Primary">
+            <nav class="nav-links" aria-label="Primary" data-i18n-aria-label="nav-primary-label">
                 <a href="#about" data-i18n="nav-about">About</a>
                 <a href="#case-studies" data-i18n="nav-cases">Case Studies</a>
                 <a href="#contact" data-i18n="nav-contact">Contact Us</a>
@@ -48,7 +48,7 @@
                     <button class="lang-btn" data-lang="ja" onclick="switchLanguage('ja')">日本語</button>
                 </div>
             </nav>
-            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-drawer" aria-label="Menu">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-drawer" aria-label="Menu" data-i18n-aria-label="menu-label">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -58,7 +58,7 @@
         <div class="nav-overlay" id="nav-overlay"></div>
 
         <aside class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
-            <nav class="drawer-links" aria-label="Mobile">
+            <nav class="drawer-links" aria-label="Mobile" data-i18n-aria-label="nav-mobile-label">
                 <a href="#about" data-i18n="nav-about">About</a>
                 <a href="#case-studies" data-i18n="nav-cases">Case Studies</a>
                 <a href="#contact" data-i18n="nav-contact">Contact Us</a>
@@ -524,7 +524,7 @@
                     <p data-i18n="contact-desc">Ready to automate your workflows? Contact us for a consultation on how AI can transform your business operations.</p>
                     <div class="contact-email">
                         <span class="contact-label" data-i18n="contact-email-label">Email:</span>
-                        <a href="mailto:contact@aiworkflow.com" class="email-link">contact@aiworkflow.com</a>
+                        <a href="mailto:contact@aiworkflow.com" class="email-link" data-i18n="contact-email">contact@aiworkflow.com</a>
                     </div>
                 </div>
                 <div class="contact-form-container">
@@ -551,7 +551,7 @@
             </div>
 
             <div class="disclaimer-section">
-                <p class="disclaimer-title">Disclaimer</p>
+                <p class="disclaimer-title" data-i18n="disclaimer-title">Disclaimer</p>
                 <p class="disclaimer-text" data-i18n="disclaimer-general">The information on this website is provided for informational purposes only and does not constitute professional advice. All views and content are for demonstration purposes only.</p>
                 <p class="disclaimer-text" data-i18n="disclaimer-privacy">No personal information is collected, stored, or processed through this website. This site does not use cookies, tracking mechanisms, or any form of data collection.</p>
             </div>
@@ -560,7 +560,7 @@
         <footer>
             <picture class="footer-logo-wrap">
                 <source srcset="static/images/logo.webp" type="image/webp">
-                <img class="footer-logo" src="static/images/logo.png" alt="AI Workflow Automation logo" width="44" height="44">
+                <img class="footer-logo" src="static/images/logo.png" alt="AI Workflow Automation logo" width="44" height="44" data-i18n-alt="logo-alt">
             </picture>
             <p data-i18n="footer">&copy; 2026 AI Workflow Automation. All rights reserved.</p>
         </footer>

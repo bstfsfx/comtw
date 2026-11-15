@@ -13,6 +13,12 @@ const translations = {
         "nav-about": "About",
         "nav-cases": "Case Studies",
         "nav-contact": "Contact Us",
+        "brand-name": "AI Workflow Automation",
+        "nav-home-label": "AI Workflow Automation - home",
+        "nav-primary-label": "Primary",
+        "nav-mobile-label": "Mobile",
+        "menu-label": "Menu",
+        "logo-alt": "AI Workflow Automation logo",
 
         // Case Studies
         "selected-work": "Case Studies",
@@ -109,6 +115,7 @@ const translations = {
         "footer": "© 2026 AI Workflow Automation. All rights reserved.",
 
         // Disclaimer
+        "disclaimer-title": "Disclaimer",
         "disclaimer-general": "The information on this website is provided for informational purposes only and does not constitute professional advice. All views and content are for demonstration purposes only.",
         "disclaimer-privacy": "No personal information is collected, stored, or processed through this website. This site does not use cookies, tracking mechanisms, or any form of data collection.",
 
@@ -140,6 +147,12 @@ const translations = {
         "nav-about": "關於我們",
         "nav-cases": "案例研究",
         "nav-contact": "聯絡我們",
+        "brand-name": "AI 流程自動化",
+        "nav-home-label": "AI 流程自動化 - 首頁",
+        "nav-primary-label": "主要導覽",
+        "nav-mobile-label": "行動裝置導覽",
+        "menu-label": "選單",
+        "logo-alt": "AI 流程自動化標誌",
 
         // Case Studies
         "selected-work": "案例研究",
@@ -236,6 +249,7 @@ const translations = {
         "footer": "© 2026 AI 流程自動化. 版權所有.",
 
         // Disclaimer
+        "disclaimer-title": "免責聲明",
         "disclaimer-general": "本網站資訊僅供參考之用，不構成專業建議。所有觀點與內容僅供示範用途。",
         "disclaimer-privacy": "本網站不會收集、儲存或處理任何個人資訊。本網站不使用 Cookie、追蹤機制或任何形式的資料收集。",
 
@@ -267,6 +281,12 @@ const translations = {
         "nav-about": "会社概要",
         "nav-cases": "導入事例",
         "nav-contact": "お問い合わせ",
+        "brand-name": "AI ワークフロー自動化",
+        "nav-home-label": "AI ワークフロー自動化 - ホーム",
+        "nav-primary-label": "メインナビゲーション",
+        "nav-mobile-label": "モバイルナビゲーション",
+        "menu-label": "メニュー",
+        "logo-alt": "AI ワークフロー自動化のロゴ",
 
         // Case Studies
         "selected-work": "導入事例",
@@ -363,6 +383,7 @@ const translations = {
         "footer": "© 2026 AI ワークフロー自動化. 全著作権所有.",
 
         // Disclaimer
+        "disclaimer-title": "免責事項",
         "disclaimer-general": "このウェブサイトの情報は情報提供のみを目的としており、専門的なアドバイスではありません。すべての观点と内容はデモンストレーション目的のためのものです。",
         "disclaimer-privacy": "このウェブサイトでは、個人情報を収集、保存、または処理することはしません。このサイトはCookie、トラッキングメカニズム、またはいかなる形のデータ収集も使用しません。",
 
@@ -410,6 +431,27 @@ function applyTranslations(lang) {
         const key = el.getAttribute('data-i18n');
         if (t[key]) {
             el.textContent = t[key];
+        }
+    });
+
+    document.querySelectorAll('[data-i18n-alt]').forEach(el => {
+        const key = el.getAttribute('data-i18n-alt');
+        if (t[key]) {
+            el.setAttribute('alt', t[key]);
+        }
+    });
+
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+        const key = el.getAttribute('data-i18n-placeholder');
+        if (t[key]) {
+            el.setAttribute('placeholder', t[key]);
+        }
+    });
+
+    document.querySelectorAll('[data-i18n-aria-label]').forEach(el => {
+        const key = el.getAttribute('data-i18n-aria-label');
+        if (t[key]) {
+            el.setAttribute('aria-label', t[key]);
         }
     });
 
