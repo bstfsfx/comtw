@@ -1,7 +1,7 @@
 // Internationalization (i18n) module
 // Supports: English (en), Traditional Chinese (zh-TW), Japanese (ja)
 
-const translations = {
+window.translations = {
     en: {
         // Header
         "title": "AI Workflow Automation",
@@ -37,6 +37,22 @@ const translations = {
         "tech-responsive": "Responsive",
         "tech-multilingual": "Multi-language",
         "tech-reservation": "Reservation",
+        "tech-booking": "Booking",
+        "tech-line-integration": "LINE Integration",
+        "tech-3d-printing": "3D Printing",
+        "tech-ecommerce": "E-commerce",
+        "tech-analytics": "Analytics",
+        "tech-hipaa-ready": "HIPAA-ready",
+        "tech-recharts": "Recharts",
+        "tech-iot": "IoT",
+        "tech-ai": "AI",
+        "tech-counseling": "Counseling",
+        "tech-crm": "CRM",
+        "tech-rtk-gnss": "RTK/GNSS",
+        "tech-uav": "UAV",
+        "tech-ai-ml": "AI/ML",
+        "tech-api": "API",
+        "tech-real-time": "Real-time",
 
         // Project descriptions - reframed as company case studies
         "project-arashiyama-title": "Tea House & Brand Experience Site",
@@ -49,6 +65,8 @@ const translations = {
         "project-bloomtwcity-desc": "Multilingual online flower shop featuring curated floral collections, custom bouquet ordering, educational flower care content, store information, and a polished shopping experience designed to make every moment more beautiful.",
         "project-gradgallery-title": "Graduation Memories Platform",
         "project-gradgallery-desc": "An immersive graduation memories website featuring a graduation photo gallery, milestone storytelling, and a polished multilingual showcase for commemorating the Class of 2026.",
+        "project-aquatic-title": "Aquatic Lifestyle E-Commerce Platform",
+        "project-aquatic-desc": "Immersive aquatic lifestyle storefront featuring curated aquarium products, educational content, store locations, community resources, and streamlined shopping workflows for aquarium enthusiasts.",
         "project-tete-title": "Pet Profile & Memory Wall",
         "project-tete-desc": "A heartwarming personal companion website featuring a pet profile, personality and daily-life stories, a categorized photo gallery, favorite moments, and a memory wall celebrating shared adventures.",
         "project-web2print-title": "Online Printing E-Commerce Platform",
@@ -135,7 +153,12 @@ const translations = {
         "form-submit": "Send Message",
         "form-success": "Thank you! Your message has been sent successfully.",
         "form-error": "Failed to send message. Please try again later.",
-        "form-blocked": "Submission blocked."
+        "form-blocked": "Submission blocked.",
+        "form-rate-limit": "Too many requests. Please wait a minute.",
+        "form-invalid-name": "Please enter a valid name.",
+        "form-invalid-email": "Please enter a valid email address.",
+        "form-message-too-short": "Message must be at least 10 characters.",
+        "form-sending": "Sending..."
     },
 
     "zh-TW": {
@@ -173,6 +196,22 @@ const translations = {
         "tech-responsive": "響應式設計",
         "tech-multilingual": "多語系",
         "tech-reservation": "預約系統",
+        "tech-booking": "預約",
+        "tech-line-integration": "LINE 整合",
+        "tech-3d-printing": "3D 列印",
+        "tech-ecommerce": "電子商務",
+        "tech-analytics": "數據分析",
+        "tech-hipaa-ready": "符合 HIPAA 規範",
+        "tech-recharts": "Recharts",
+        "tech-iot": "物聯網",
+        "tech-ai": "AI",
+        "tech-counseling": "諮商服務",
+        "tech-crm": "CRM",
+        "tech-rtk-gnss": "RTK/GNSS",
+        "tech-uav": "UAV",
+        "tech-ai-ml": "AI/ML",
+        "tech-api": "API",
+        "tech-real-time": "即時",
 
         // Project descriptions
         "project-arashiyama-title": "茶館與品牌體驗網站",
@@ -185,6 +224,8 @@ const translations = {
         "project-bloomtwcity-desc": "多語系線上花店，具備精選花卉系列、客製花束訂購、花藝知識與養護指南、門市資訊，以及讓每個時刻更美麗的精緻購物體驗。",
         "project-gradgallery-title": "畢業回憶網站",
         "project-gradgallery-desc": "沉浸式畢業紀念網站，具備畢業照片回憶廊、重要里程碑故事，以及為 2026 屆畢業生打造的精緻多語系展示體驗。",
+        "project-aquatic-title": "水族生活電商平台",
+        "project-aquatic-desc": "沉浸式水族生活購物網站，具備精選水族用品、專業知識內容、門市資訊、社群資源，以及為水族愛好者打造的流暢購物流程。",
         "project-tete-title": "寵物檔案與回憶牆",
         "project-tete-desc": "溫馨的個人陪伴網站，具備寵物檔案、個性與日常故事、分類相簿、最愛時刻，以及記錄共同冒險的回憶牆。",
         "project-web2print-title": "線上印刷電商平台",
@@ -271,7 +312,12 @@ const translations = {
         "form-submit": "發送訊息",
         "form-success": "感謝您！您的訊息已成功發送。",
         "form-error": "訊息發送失敗，請稍後再試。",
-        "form-blocked": "提交已被阻止。"
+        "form-blocked": "提交已被阻止。",
+        "form-rate-limit": "請求次數過多，請稍後一分鐘再試。",
+        "form-invalid-name": "請輸入有效的姓名。",
+        "form-invalid-email": "請輸入有效的電子郵件地址。",
+        "form-message-too-short": "訊息內容至少需要 10 個字元。",
+        "form-sending": "傳送中..."
     },
 
     "ja": {
@@ -309,6 +355,22 @@ const translations = {
         "tech-responsive": "レスポンシブ",
         "tech-multilingual": "多言語対応",
         "tech-reservation": "予約システム",
+        "tech-booking": "予約",
+        "tech-line-integration": "LINE 連携",
+        "tech-3d-printing": "3D プリンタリング",
+        "tech-ecommerce": "EC",
+        "tech-analytics": "分析",
+        "tech-hipaa-ready": "HIPAA 対応",
+        "tech-recharts": "Recharts",
+        "tech-iot": "IoT",
+        "tech-ai": "AI",
+        "tech-counseling": "カウンセリング",
+        "tech-crm": "CRM",
+        "tech-rtk-gnss": "RTK/GNSS",
+        "tech-uav": "UAV",
+        "tech-ai-ml": "AI/ML",
+        "tech-api": "API",
+        "tech-real-time": "リアルタイム",
 
         // Project descriptions
         "project-arashiyama-title": "茶ハウス・ブランド体験サイト",
@@ -321,6 +383,8 @@ const translations = {
         "project-bloomtwcity-desc": "厳選された花のコレクション、オリジナルブーケ、花のケアガイド、店舗情報など、心地よいショッピング体験を提供する多言語対応オンラインフラワーショップです。",
         "project-gradgallery-title": "卒業記念ウェブサイト",
         "project-gradgallery-desc": "卒業写真のギャラリーや大切な瞬間のストーリーを備えた沉浸型の卒業記念サイト。2026年の卒業生を祝う、洗練された多言語インターフェースを提供します。",
+        "project-aquatic-title": "アクアティック生活ECプラットフォーム",
+        "project-aquatic-desc": "厳選されたアクアリウム用品、専門的なガイド、店舗情報、コミュニティリソースを備えた、水槽愛好家向けの没入型ECプラットフォームです。",
         "project-tete-title": "ペットプロフィール・メモリーウォール",
         "project-tete-desc": "ペットプロフィール、個性や日常のエピソード、カテゴリ別ギャラリー、お気に入りの瞬間、二人で過ごした冒険を偲ぶメモリーウォールを備えた温かなウェブサイトです。",
         "project-web2print-title": "オンライン印刷ECプラットフォーム",
@@ -407,9 +471,16 @@ const translations = {
         "form-submit": "送信",
         "form-success": "ありがとうございます！メッセージは正常に送信されました。",
         "form-error": "メッセージの送信に失敗しました。後でもう一度お試しください。",
-        "form-blocked": "送信はブロックされました。"
+        "form-blocked": "送信はブロックされました。",
+        "form-rate-limit": "リクエストが多すぎます。1分間お待ちください。",
+        "form-invalid-name": "有効な氏名を入力してください。",
+        "form-invalid-email": "有効なメールアドレスを入力してください。",
+        "form-message-too-short": "メッセージは10文字以上で入力してください。",
+        "form-sending": "送信中..."
     }
 };
+
+const translations = window.translations;
 
 // Current language - always default to English
 let currentLang = 'en';

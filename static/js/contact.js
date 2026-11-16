@@ -60,6 +60,11 @@ function showMessage(message, isError) {
     }
 }
 
+function getTranslation(key, fallback) {
+    const translation = window.translations?.[currentLang]?.[key];
+    return translation || fallback;
+}
+
 function resetForm() {
     const form = document.getElementById('contact-form');
     if (form) form.reset();
@@ -76,13 +81,13 @@ document.addEventListener('DOMContentLoaded', function() {
         // Honeypot check - if filled, it's a bot
         const honeypot = form.querySelector(`[name="${HONEYPOT_NAME}"]`);
         if (honeypot && honeypot.value) {
-            showMessage('Submission blocked.', true);
+            showMessage(getTranslation('form-blocked', 'Submission blocked.'), true);
             return;
         }
 
         // Rate limit check
         if (!checkRateLimit()) {
-            showMessage('Too many requests. Please wait a minute.', true);
+            showMessage(getTranslation('form-rate-limit', 'Too many requests. Please wait a minute.'), true);
             return;
         }
 
@@ -92,17 +97,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Validation
         if (!name || name.length < 2) {
-            showMessage('Please enter a valid name.', true);
+            showMessage(getTranslation('form-invalid-name', 'Please enter a valid name.'), true);
             return;
         }
 
         if (!email || !validateEmail(email)) {
-            showMessage('Please enter a valid email address.', true);
+            showMessage(getTranslation('form-invalid-email', 'Please enter a valid email address.'), true);
             return;
         }
 
         if (!message || message.length < 10) {
-            showMessage('Message must be at least 10 characters.', true);
+            showMessage(getTranslation('form-message-too-short', 'Message must be at least 10 characters.'), true);
             return;
         }
 
@@ -110,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const submitBtn = form.querySelector('.btn-submit');
         const originalText = submitBtn?.textContent || 'Send';
         submitBtn.disabled = true;
-        if (submitBtn) submitBtn.textContent = 'Sending...';
+        if (submitBtn) submitBtn.textContent = getTranslation('form-sending', 'Sending...');
 
         try {
             const response = await fetch(API_ENDPOINT, {
@@ -124,14 +129,14 @@ document.addEventListener('DOMContentLoaded', function() {
             const data = await response.json();
 
             if (response.ok) {
-                showMessage('Thank you! Your message has been sent successfully.', false);
+                showMessage(getTranslation('form-success', 'Thank you! Your message has been sent successfully.'), false);
                 resetForm();
             } else {
-                showMessage(data.error || 'Failed to send message. Please try again.', true);
+                showMessage(data.error || getTranslation('form-error', 'Failed to send message. Please try again.'), true);
             }
         } catch (error) {
             console.error('Contact form error:', error);
-            showMessage('Failed to send message. Please try again later.', true);
+            showMessage(getTranslation('form-error', 'Failed to send message. Please try again later.'), true);
         } finally {
             submitBtn.disabled = false;
             if (submitBtn) submitBtn.textContent = originalText;
