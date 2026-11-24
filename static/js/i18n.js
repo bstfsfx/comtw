@@ -22,6 +22,7 @@ window.translations = {
 
         // Case Studies
         "selected-work": "Case Studies",
+        "sites-showcase-title": "Featured Sites",
         "click-to-explore": "Click to Explore →",
         "live-demo": "Live Demo",
         "tech-react": "React",
@@ -135,6 +136,32 @@ window.translations = {
 
         // Footer
         "footer": "© 2026 AI Workflow Automation. All rights reserved.",
+        "footer-tagline": "Enterprise workflow automation, implementation and integration consultants.",
+        "footer-cta": "Get in touch",
+        "footer-company": "Company",
+        "footer-services": "Services",
+        "footer-legal": "Legal",
+        "footer-back-to-top": "Back to top",
+        "footer-privacy": "Privacy Policy",
+        "footer-terms": "Terms of Service",
+        "footer-disclaimer-link": "Disclaimer",
+        "footer-disclaimer-title": "Disclaimer",
+
+        // Social
+        "social-follow": "Follow us",
+        "social-facebook": "Facebook",
+        "social-instagram": "Instagram",
+        "social-threads": "Threads",
+        "social-whatsapp": "WhatsApp",
+        "social-behance": "Behance",
+
+        // Newsletter
+        "newsletter-title": "Newsletter",
+        "newsletter-placeholder": "Enter your email address",
+        "newsletter-submit": "Subscribe",
+        "newsletter-success": "Thanks for subscribing! Please check your inbox to confirm.",
+        "newsletter-error": "Please enter a valid email address.",
+        "newsletter-already": "You are already subscribed. Thank you!",
 
         // Disclaimer
         "disclaimer-title": "Disclaimer",
@@ -183,6 +210,7 @@ window.translations = {
 
         // Case Studies
         "selected-work": "案例研究",
+        "sites-showcase-title": "精選網站",
         "click-to-explore": "點擊探索 →",
         "live-demo": "前往觀看",
         "tech-react": "React",
@@ -296,6 +324,32 @@ window.translations = {
 
         // Footer
         "footer": "© 2026 AI 流程自動化. 版權所有.",
+        "footer-tagline": "企業流程自動化、落地實作與系統整合顧問。",
+        "footer-cta": "聯絡我們",
+        "footer-company": "公司",
+        "footer-services": "服務項目",
+        "footer-legal": "法律條款",
+        "footer-back-to-top": "返回頂部",
+        "footer-privacy": "私隱政策",
+        "footer-terms": "服務條款",
+        "footer-disclaimer-link": "免責聲明",
+        "footer-disclaimer-title": "免責聲明",
+
+        // Social
+        "social-follow": "關注我們",
+        "social-facebook": "Facebook",
+        "social-instagram": "Instagram",
+        "social-threads": "Threads",
+        "social-whatsapp": "WhatsApp",
+        "social-behance": "Behance",
+
+        // Newsletter
+        "newsletter-title": "電子報",
+        "newsletter-placeholder": "請輸入您的電子郵件地址",
+        "newsletter-submit": "訂閱",
+        "newsletter-success": "感謝您的訂閱！請查看您的收件箱以確認。",
+        "newsletter-error": "請輸入有效的電子郵件地址。",
+        "newsletter-already": "您已訂閱過，感謝您！",
 
         // Disclaimer
         "disclaimer-title": "免責聲明",
@@ -344,6 +398,7 @@ window.translations = {
 
         // Case Studies
         "selected-work": "導入事例",
+        "sites-showcase-title": "注目のサイト",
         "click-to-explore": "クリックして探索 →",
         "live-demo": "デモを見る",
         "tech-react": "React",
@@ -457,6 +512,32 @@ window.translations = {
 
         // Footer
         "footer": "© 2026 AI ワークフロー自動化. 全著作権所有.",
+        "footer-tagline": "エンタープライズのワークフロー自動化、実装および統合コンサルティング。",
+        "footer-cta": "お問い合わせ",
+        "footer-company": "会社情報",
+        "footer-services": "サービス",
+        "footer-legal": "法的情報",
+        "footer-back-to-top": "ページ上部へ",
+        "footer-privacy": "プライバシーポリシー",
+        "footer-terms": "利用規約",
+        "footer-disclaimer-link": "免責事項",
+        "footer-disclaimer-title": "免責事項",
+
+        // Social
+        "social-follow": "フォローする",
+        "social-facebook": "Facebook",
+        "social-instagram": "Instagram",
+        "social-threads": "Threads",
+        "social-whatsapp": "WhatsApp",
+        "social-behance": "Behance",
+
+        // Newsletter
+        "newsletter-title": "ニュースレター",
+        "newsletter-placeholder": "メールアドレスを入力",
+        "newsletter-submit": "登録する",
+        "newsletter-success": "ご購読ありがとうございます。確認のため受信箱をご確認ください。",
+        "newsletter-error": "有効なメールアドレスを入力してください。",
+        "newsletter-already": "すでに購読済みです。ありがとうございます。",
 
         // Disclaimer
         "disclaimer-title": "免責事項",

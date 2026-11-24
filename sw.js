@@ -1,4 +1,4 @@
-const CACHE = 'pwa-v1';
+const CACHE = 'pwa-v4';
 
 const CORE = [
     '/',
@@ -7,6 +7,7 @@ const CORE = [
     '/static/js/i18n.js',
     '/static/js/contact.js',
     '/static/js/nav.js',
+    '/static/js/newsletter.js',
     '/static/manifest.json',
     '/static/images/logo.webp',
     '/static/images/logo.png',
